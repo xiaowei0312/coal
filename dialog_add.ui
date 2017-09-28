@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddDialog</class>
+ <widget class="QDialog" name="AddDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>886</width>
+    <height>598</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>煤质添加</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_21">
+   <item>
+    <widget class="QGroupBox" name="groupBox_0">
+     <property name="title">
+      <string>基本数据</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QGroupBox" name="groupBox_00">
+        <property name="title">
+         <string>全水</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QCheckBox" name="checkBox_000">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>皮重</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_001">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>加煤重</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_002">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>化验重</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QLineEdit" name="lineEdit_000"/>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_001"/>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_002"/>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_01">
+        <property name="title">
+         <string>空气水</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <item>
+            <widget class="QCheckBox" name="checkBox_010">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>皮重</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_011">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>加煤重</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_012">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>化验重</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <item>
+            <widget class="QLineEdit" name="lineEdit_010"/>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_011"/>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_012"/>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_02">
+        <property name="title">
+         <string>灰分</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="QCheckBox" name="checkBox_020">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>皮重</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_021">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>加煤重</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_022">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>化验重</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_10">
+           <item>
+            <widget class="QLineEdit" name="lineEdit_020"/>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_021"/>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_022"/>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_03">
+        <property name="title">
+         <string>挥发分</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_9">
+           <item>
+            <widget class="QCheckBox" name="checkBox_030">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>皮重</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_031">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>加煤重</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_032">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>化验重</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <item>
+            <widget class="QLineEdit" name="lineEdit_030"/>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_031"/>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_032"/>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_1">
+     <property name="title">
+      <string>粘结指数</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_10">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QCheckBox" name="checkBox_100">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>粘指数1</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_100"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <widget class="QCheckBox" name="checkBox_101">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>粘指数2</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_101"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_8">
+        <item>
+         <widget class="QCheckBox" name="checkBox_102">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>粘指数3</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_102"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_9">
+        <item>
+         <widget class="QCheckBox" name="checkBox_103">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>粘指数4</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_103"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="title">
+      <string>基本数据</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_20">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_15">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <item>
+           <widget class="QCheckBox" name="checkBox_200">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string>全水分</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_201">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string>空气干燥基灰分</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_202">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string>空气干燥基挥发分</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_203">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string>收到基低位发热</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_204">
+            <property name="text">
+             <string>干基全硫</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_205">
+            <property name="text">
+             <string>粘结指数</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_8">
+          <item>
+           <widget class="QLineEdit" name="lineEdit_200"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_201"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_202"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_203"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_204"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_205"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_11">
+          <item>
+           <widget class="QCheckBox" name="checkBox_210">
+            <property name="text">
+             <string>空气干燥基水分</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_211">
+            <property name="text">
+             <string>干基灰分</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_212">
+            <property name="text">
+             <string>干基挥发分</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_213">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string>空气干燥基高位发热</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_214">
+            <property name="text">
+             <string>固定碳</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_215">
+            <property name="text">
+             <string>氢</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_12">
+          <item>
+           <widget class="QLineEdit" name="lineEdit_210"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_211"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_212"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_213"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_214"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_215"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_14">
+          <item>
+           <widget class="QCheckBox" name="checkBox_220">
+            <property name="text">
+             <string>收到基灰分</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_221">
+            <property name="text">
+             <string>收到基挥发分</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_222">
+            <property name="text">
+             <string>干燥无灰基挥发分</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_223">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string>空气干燥基全硫</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_224">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string>焦渣特征</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_225">
+            <property name="text">
+             <string>1.4回收</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_13">
+          <item>
+           <widget class="QLineEdit" name="lineEdit_220"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_221"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_222"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_223"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_224"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_225"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_11">
+        <item>
+         <widget class="QCheckBox" name="checkBox_1001">
+          <property name="text">
+           <string>1.6回收</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_1001"/>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_1002">
+          <property name="text">
+           <string>1.8回收</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_1002"/>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="title">
+      <string>其他信息</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_14">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_16">
+        <item>
+         <widget class="QCheckBox" name="checkBox_300">
+          <property name="text">
+           <string>编号</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_301">
+          <property name="text">
+           <string>采样日期</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_18">
+        <item>
+         <widget class="QLineEdit" name="lineEdit_300">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_301">
+          <property name="minimumSize">
+           <size>
+            <width>120</width>
+            <height>0</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_17">
+        <item>
+         <widget class="QCheckBox" name="checkBox_302">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>车号</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_303">
+          <property name="text">
+           <string>受检单位</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_15">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_12">
+          <item>
+           <widget class="QLineEdit" name="lineEdit_302"/>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_304">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>采样地点</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_303">
+          <property name="minimumSize">
+           <size>
+            <width>220</width>
+            <height>0</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_19">
+        <item>
+         <widget class="QLineEdit" name="lineEdit_304">
+          <property name="text">
+           <string>仅对来样负责</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_13">
+          <item>
+           <widget class="QCheckBox" name="checkBox_305">
+            <property name="text">
+             <string>煤种</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_305">
+            <property name="text">
+             <string>*</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_306">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>煤量</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_306"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_18">
+     <item>
+      <widget class="QToolButton" name="btn_save_next">
+       <property name="text">
+        <string>Save &amp;&amp; Next</string>
+       </property>
+       <property name="icon">
+        <iconset resource="main.qrc">
+         <normaloff>:/images/add.png</normaloff>:/images/add.png</iconset>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextBesideIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btn_add">
+       <property name="text">
+        <string>添加</string>
+       </property>
+       <property name="icon">
+        <iconset resource="main.qrc">
+         <normaloff>:/images/add.png</normaloff>:/images/add.png</iconset>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextBesideIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_42">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btn_print">
+       <property name="text">
+        <string>打印</string>
+       </property>
+       <property name="icon">
+        <iconset resource="main.qrc">
+         <normaloff>:/images/print.png</normaloff>:/images/print.png</iconset>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextBesideIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_43">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btn_exit">
+       <property name="text">
+        <string>关闭</string>
+       </property>
+       <property name="icon">
+        <iconset resource="main.qrc">
+         <normaloff>:/images/exit.png</normaloff>:/images/exit.png</iconset>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextBesideIcon</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>lineEdit_000</tabstop>
+  <tabstop>lineEdit_001</tabstop>
+  <tabstop>lineEdit_002</tabstop>
+  <tabstop>lineEdit_010</tabstop>
+  <tabstop>lineEdit_011</tabstop>
+  <tabstop>lineEdit_012</tabstop>
+  <tabstop>lineEdit_020</tabstop>
+  <tabstop>lineEdit_021</tabstop>
+  <tabstop>lineEdit_022</tabstop>
+  <tabstop>lineEdit_030</tabstop>
+  <tabstop>lineEdit_031</tabstop>
+  <tabstop>lineEdit_032</tabstop>
+  <tabstop>lineEdit_100</tabstop>
+  <tabstop>lineEdit_101</tabstop>
+  <tabstop>lineEdit_102</tabstop>
+  <tabstop>lineEdit_103</tabstop>
+  <tabstop>lineEdit_200</tabstop>
+  <tabstop>lineEdit_201</tabstop>
+  <tabstop>lineEdit_202</tabstop>
+  <tabstop>lineEdit_203</tabstop>
+  <tabstop>lineEdit_204</tabstop>
+  <tabstop>lineEdit_205</tabstop>
+  <tabstop>lineEdit_210</tabstop>
+  <tabstop>lineEdit_211</tabstop>
+  <tabstop>lineEdit_212</tabstop>
+  <tabstop>lineEdit_213</tabstop>
+  <tabstop>lineEdit_214</tabstop>
+  <tabstop>lineEdit_215</tabstop>
+  <tabstop>lineEdit_220</tabstop>
+  <tabstop>lineEdit_221</tabstop>
+  <tabstop>lineEdit_222</tabstop>
+  <tabstop>lineEdit_223</tabstop>
+  <tabstop>lineEdit_224</tabstop>
+  <tabstop>lineEdit_225</tabstop>
+  <tabstop>lineEdit_1001</tabstop>
+  <tabstop>lineEdit_1002</tabstop>
+  <tabstop>lineEdit_300</tabstop>
+  <tabstop>lineEdit_301</tabstop>
+  <tabstop>lineEdit_302</tabstop>
+  <tabstop>lineEdit_303</tabstop>
+  <tabstop>lineEdit_304</tabstop>
+  <tabstop>lineEdit_305</tabstop>
+  <tabstop>lineEdit_306</tabstop>
+  <tabstop>checkBox_102</tabstop>
+  <tabstop>checkBox_103</tabstop>
+  <tabstop>checkBox_300</tabstop>
+  <tabstop>checkBox_301</tabstop>
+  <tabstop>checkBox_302</tabstop>
+  <tabstop>checkBox_303</tabstop>
+  <tabstop>checkBox_304</tabstop>
+  <tabstop>checkBox_305</tabstop>
+  <tabstop>checkBox_306</tabstop>
+  <tabstop>checkBox_200</tabstop>
+  <tabstop>checkBox_202</tabstop>
+  <tabstop>checkBox_203</tabstop>
+  <tabstop>checkBox_204</tabstop>
+  <tabstop>checkBox_205</tabstop>
+  <tabstop>checkBox_201</tabstop>
+  <tabstop>checkBox_212</tabstop>
+  <tabstop>checkBox_210</tabstop>
+  <tabstop>checkBox_213</tabstop>
+  <tabstop>checkBox_214</tabstop>
+  <tabstop>checkBox_215</tabstop>
+  <tabstop>checkBox_220</tabstop>
+  <tabstop>checkBox_221</tabstop>
+  <tabstop>checkBox_222</tabstop>
+  <tabstop>checkBox_211</tabstop>
+  <tabstop>checkBox_223</tabstop>
+  <tabstop>checkBox_224</tabstop>
+  <tabstop>checkBox_225</tabstop>
+  <tabstop>checkBox_000</tabstop>
+  <tabstop>checkBox_001</tabstop>
+  <tabstop>checkBox_002</tabstop>
+  <tabstop>checkBox_010</tabstop>
+  <tabstop>checkBox_011</tabstop>
+  <tabstop>checkBox_012</tabstop>
+  <tabstop>checkBox_021</tabstop>
+  <tabstop>checkBox_022</tabstop>
+  <tabstop>checkBox_020</tabstop>
+  <tabstop>checkBox_030</tabstop>
+  <tabstop>checkBox_031</tabstop>
+  <tabstop>checkBox_032</tabstop>
+  <tabstop>btn_add</tabstop>
+  <tabstop>btn_print</tabstop>
+  <tabstop>btn_exit</tabstop>
+  <tabstop>checkBox_1001</tabstop>
+  <tabstop>checkBox_1002</tabstop>
+  <tabstop>checkBox_101</tabstop>
+  <tabstop>checkBox_100</tabstop>
+  <tabstop>btn_save_next</tabstop>
+ </tabstops>
+ <resources>
+  <include location="main.qrc"/>
+ </resources>
+ <connections/>
+</ui>

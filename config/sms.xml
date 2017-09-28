@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<list>
+	<item grouptext="全水">
+		<objname>data_000</objname>
+		<text>皮重</text>
+		<smstext>全水皮重</smstext>
+	</item>
+	<item grouptext="全水">
+		<objname>data_001</objname>
+		<text>加煤重</text>
+		<smstext>全水加煤重</smstext>
+	</item>
+	<item grouptext="全水">
+		<objname>data_002</objname>
+		<text>化验重</text>
+		<smstext>全水化验重</smstext>
+	</item>
+	<item grouptext="空气水">
+		<objname>data_010</objname>
+		<text>皮重</text>
+		<smstext>空气水皮重</smstext>
+	</item>
+	<item grouptext="空气水">
+		<objname>data_011</objname>
+		<text>加煤重</text>
+		<smstext>空气水加煤重</smstext>
+	</item>
+	<item grouptext="空气水">
+		<objname>data_012</objname>
+		<text>化验重</text>
+		<smstext>空气水化验重</smstext>
+	</item>
+	<item grouptext="挥发分">
+		<objname>data_020</objname>
+		<text>皮重</text>
+		<smstext>挥发分皮重</smstext>
+	</item>
+	<item grouptext="挥发分">
+		<objname>data_021</objname>
+		<text>加煤重</text>
+		<smstext>挥发分加煤重</smstext>
+	</item>
+	<item grouptext="挥发分">
+		<objname>data_022</objname>
+		<text>化验重</text>
+		<smstext>挥发分化验重</smstext>
+	</item>
+	<item grouptext="灰分">
+		<objname>data_030</objname>
+		<text>皮重</text>
+		<smstext>灰分皮重</smstext>
+	</item>
+	<item grouptext="灰分">
+		<objname>data_031</objname>
+		<text>加煤重</text>
+		<smstext>灰分加煤重</smstext>
+	</item>
+	<item grouptext="灰分">
+		<objname>data_032</objname>
+		<text>化验重</text>
+		<smstext>灰分化验重</smstext>
+	</item>
+
+	<item>
+		<objname>data_100</objname>
+		<text>粘指数1</text>
+		<smstext>粘指数1</smstext>
+	</item>
+	<item>
+		<objname>data_101</objname>
+		<text>粘指数2</text>
+		<smstext>粘指数2</smstext>
+	</item>
+	<item>
+		<objname>data_102</objname>
+		<text>粘指数3</text>
+		<smstext>粘指数3</smstext>
+	</item>
+	<item>
+		<objname>data_103</objname>
+		<text>粘指数4</text>
+		<smstext>粘指数4</smstext>
+	</item>
+
+	<item>
+		<objname>data_200</objname>
+		<text>全水分</text>
+		<smstext>全水</smstext>
+	</item>
+	<item>
+		<objname>data_201</objname>
+		<text>空气干燥基灰分</text>
+		<smstext>灰</smstext>
+	</item>
+	<item>
+		<objname>data_202</objname>
+		<text>空气干燥基挥发分</text>
+		<smstext>挥发</smstext>
+	</item>
+	<item>
+		<objname>data_203</objname>
+		<text>收到基低位发热</text>
+		<smstext>低卡</smstext>
+	</item>
+	<item>
+		<objname>data_204</objname>
+		<text>干基全硫</text>
+		<smstext>干基全硫</smstext>
+	</item>
+	<item>
+		<objname>data_205</objname>
+		<text>粘结指数</text>
+		<smstext>粘结指数</smstext>
+	</item>
+
+	<item>
+		<objname>data_210</objname>
+		<text>空气干燥基水分</text>
+		<smstext>内水</smstext>
+	</item>
+	<item>
+		<objname>data_211</objname>
+		<text>干基灰分</text>
+		<smstext>干基灰分</smstext>
+	</item>
+	<item>
+		<objname>data_212</objname>
+		<text>干基挥发分</text>
+		<smstext>干基挥发分</smstext>
+	</item>
+	<item>
+		<objname>data_213</objname>
+		<text>空气干燥基高位发热</text>
+		<smstext>高卡</smstext>
+	</item>
+	<item>
+		<objname>data_214</objname>
+		<text>固定碳</text>
+		<smstext>固定碳</smstext>
+	</item>
+	<item>
+		<objname>data_215</objname>
+		<text>氢</text>
+		<smstext>氢</smstext>
+	</item>
+
+	<item>
+		<objname>data_220</objname>
+		<text>收到基灰分</text>
+		<smstext>收到基灰分</smstext>
+	</item>
+	<item>
+		<objname>data_221</objname>
+		<text>收到基挥发分</text>
+		<smstext>收到基挥发分</smstext>
+	</item>
+	<item>
+		<objname>data_222</objname>
+		<text>干燥无灰基挥发分</text>
+		<smstext>干燥无灰基挥发分</smstext>
+	</item>
+	<item>
+		<objname>data_223</objname>
+		<text>空气干燥基全硫</text>
+		<smstext>硫</smstext>
+	</item>
+	<item>
+		<objname>data_224</objname>
+		<text>焦渣特征</text>
+		<smstext>焦渣</smstext>
+	</item>
+	<item>
+		<objname>data_225</objname>
+		<text>1.4回收</text>
+		<smstext> 1.4回收</smstext>
+	</item>
+	<item>
+		<objname>data_1001</objname>
+		<text>1.6回收</text>
+		<smstext> 1.6回收</smstext>
+	</item>
+	<item>
+		<objname>data_1002</objname>
+		<text>1.8回收</text>
+		<smstext> 1.8回收</smstext>
+	</item>
+
+	<item>
+		<objname>data_300</objname>
+		<text>编号</text>
+		<smstext>编号</smstext>
+	</item>
+	<item>
+		<objname>data_301</objname>
+		<text>采样日期</text>
+		<smstext>采样日期</smstext>
+	</item>
+	<item>
+		<objname>data_302</objname>
+		<text>车号</text>
+		<smstext>车号</smstext>
+	</item>
+	<item>
+		<objname>data_303</objname>
+		<text>受检单位</text>
+		<smstext>受检单位</smstext>
+	</item>
+	<item>
+		<objname>data_304</objname>
+		<text>采样地点</text>
+		<smstext>采样地点</smstext>
+	</item>
+	<item>
+		<objname>data_305</objname>
+		<text>煤种</text>
+		<smstext>煤种</smstext>
+	</item>
+	<item>
+		<objname>data_306</objname>
+		<text>煤量</text>
+		<smstext>煤量</smstext>
+	</item>
+
+</list>

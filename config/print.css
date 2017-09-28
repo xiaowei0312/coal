@@ -1,0 +1,47 @@
+.header
+{
+	text-align: center
+}
+
+.content .title .left
+{
+	width:50%;
+	float:left;
+	text-align:left;
+}
+
+.content .title .right
+{
+	width:50%;
+	float:left;
+	text-align:right;
+}
+
+.content .tail .left
+{
+	width:50%;
+	float:left;
+	text-align:left;
+}
+
+.content .tail .right
+{
+	width:50%;
+	float:left;
+	text-align:left;
+}
+
+.clear
+{
+	clear:both;
+}
+
+.content .main
+{
+	 margin: 6px 0 
+}
+
+thead
+{
+	font-weight:bold	
+}

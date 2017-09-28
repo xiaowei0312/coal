@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>  
+<datalist>
+	<item>
+		<target><node alias="Mt">16</node></target>
+		<depList>
+			<node>0</node>
+			<node>1</node>
+			<node>2</node>
+		</depList>
+		<formula>
+			(n2 - n3) / (n2 - n1) * 100
+		</formula>
+	</item>
+
+	<item>
+		<target><node alias="Mad">22</node></target>
+		<depList>
+			<node>3</node>
+			<node>4</node>
+			<node>5</node>
+		</depList>
+		<formula>
+			(n2 - n3) / (n2 - n1) * 100
+		</formula>
+	</item>
+
+	<item>
+		<target><node alias="Aad">17</node></target>
+		<depList>
+			<node>6</node>
+			<node>7</node>
+			<node>8</node>
+		</depList>
+		<formula>
+			(n3 - n1) / (n2 - n1) * 100
+		</formula>
+	</item>
+
+	<item>
+		<target><node alias="Vad">18</node></target>
+		<depList>
+			<node>9</node>
+			<node>10</node>
+			<node>11</node>
+			<node alias="Mad">22</node>
+		</depList>
+		<formula>
+			(n2 - n3) / (n2 - n1) * 100 - n4
+		</formula>
+	</item>
+
+	<item>
+		<target><node alias="Aar">28</node></target>
+		<depList>
+			<node alias="Aad">17</node>
+			<node alias="Mt">16</node>
+			<node alias="Mad">22</node>
+		</depList>
+		<formula>
+			n1 * (100 - n2) / (100 - n3)
+		</formula>
+	</item>
+
+	<item>
+		<target><node alias="Ad">23</node></target>
+		<depList>
+			<node alias="Aad">17</node>
+			<node alias="Mad">22</node>
+		</depList>
+		<formula>
+			n1 * 100 / (100 - n2)
+		</formula>
+	</item>
+
+	<item>
+		<target><node alias="Var">29</node></target>
+		<depList>
+			<node alias="Vad">18</node>
+			<node alias="Mt">16</node>
+			<node alias="Mad">22</node>
+		</depList>
+		<formula>
+			n1 * (100 - n2) / (100 - n3)
+		</formula>
+	</item>
+
+	<item>
+		<target><node alias="Vd">24</node></target>
+		<depList>
+			<node alias="Vad">18</node>
+			<node alias="Mad">22</node>
+		</depList>
+		<formula>
+			n1 * 100 / (100 - n2)
+		</formula>
+	</item>
+
+	<item>
+		<target><node alias="Vdaf">30</node></target>
+		<depList>
+			<node alias="Vad">18</node>
+			<node alias="Mad">22</node>
+			<node alias="Aad">17</node>
+		</depList>
+		<formula>
+			n1 * 100 / (100 - n2 - n3)
+		</formula>
+	</item>
+
+	<!-- 收到基低位发热-->
+	<item>
+		<target><node alias="Qnet.ar">19</node></target>
+		<depList>
+			<node alias="Vad">18</node>
+			<node alias="Aad">17</node>
+			<node alias="Mad">22</node>
+			<node alias="Crc">32</node>
+			<node alias="Mt">16</node>
+		</depList>
+		<formula>
+			((35860 - 73.7 * n1 - 395.7 * n2 - 702 * n3 + 173.6 * n4 + 23 * n3 ) * (100 - n5) / (100 - n3) - 23 * n5) / 4.1816
+		</formula>
+	</item>
+
+	<!-- 空气干燥基高位发热-->
+	<item>
+		<target><node alias="Qgr.ad">25</node></target>
+		<depList>
+			<node alias="Vad">18</node>
+			<node alias="Aad">17</node>
+			<node alias="Mad">22</node>
+			<node alias="Crc">32</node>
+		</depList>
+		<formula>
+			(36255 - 54.3 * n1 - 395.7 * n2 - 679 * n3 + 173.6 * n4) / 4.1816
+		</formula>
+	</item>
+
+	<!-- 干基全硫-->
+	<item>
+		<target><node alias="St.d">20</node></target>
+		<depList>
+			<node alias="St.ad">31</node>
+			<node alias="Mad">22</node>
+		</depList>
+		<formula>
+			n1 * 100 / (100 - n2)
+		</formula>
+	</item>
+
+	<!-- 固定碳-->
+	<item>
+		<target><node alias="Fc">26</node></target>
+		<depList>
+			<node alias="Mad">22</node>
+			<node alias="Aad">17</node>
+			<node alias="Vad">18</node>
+		</depList>
+		<formula>
+			100 - n1 - n2 - n3
+		</formula>
+	</item>
+
+	<!-- 粘结-->
+	<item>
+		<target><node alias="G">21</node></target>
+		<depList>
+			<node alias="100">12</node>
+			<node alias="101">13</node>
+			<node alias="102">14</node>
+			<node alias="103">15</node>
+		</depList>
+		<formula>
+			(30 * (n3 - n1) + 70 * (n4 - n1)) / (n2 - n1) + 10
+		</formula>
+	</item>
+
+	<!-- 氢-->
+	<item>
+		<target><node alias="Hd">27</node></target>
+		<depList>
+			<node alias="Vdaf">30</node>
+			<node alias="Ad">23</node>
+		</depList>
+		<formula>
+			n1 * (7.35 / (n1 + 10) - 0.013) * (100 - n2) / 100
+		</formula>
+	</item>
+
+</datalist>

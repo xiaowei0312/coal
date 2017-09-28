@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/" >
+        <file>images/add.png</file>
+        <file>images/find.png</file>
+        <file>images/exit.png</file>
+        <file>images/print.png</file>
+        <file>images/print1.png</file>
+        <file>images/pagedown.png</file>
+        <file>images/pagehead.png</file>
+        <file>images/pagetail.png</file>
+        <file>images/pageup.png</file>
+        <file>config/config.xml</file>
+        <file>config/print.html</file>
+        <file>config/print.css</file>
+        <file>images/sms1.png</file>
+        <file>images/select-all.png</file>
+        <file>images/select-reverse.png</file>
+        <file>coal.sql</file>
+        <file>config/sms.xml</file>
+        <file>images/ok.png</file>
+        <file>images/cancel.png</file>
+        <file>images/login.png</file>
+        <file>images/setting.png</file>
+        <file>images/username.png</file>
+        <file>images/password.png</file>
+    </qresource>
+</RCC>
